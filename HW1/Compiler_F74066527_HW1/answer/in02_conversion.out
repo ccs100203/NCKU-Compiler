@@ -1,0 +1,17 @@
+a        	 IDENT
+=        	 ASSIGN
+int32    	 INT
+(        	 LPAREN
+f        	 IDENT
+)        	 RPAREN
+         	 NEWLINE
+f2       	 IDENT
+=        	 ASSIGN
+float32  	 FLOAT
+(        	 LPAREN
+88       	 INT_LIT
+)        	 RPAREN
+
+Finish scanning,
+total line: 2
+comment line: 0

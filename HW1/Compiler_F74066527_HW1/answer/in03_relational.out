@@ -1,0 +1,27 @@
+x        	 IDENT
+<        	 LSS
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+>        	 GTR
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+<=       	 LEQ
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+>=       	 GEQ
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+==       	 EQL
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+!=       	 NEQ
+y        	 IDENT
+
+Finish scanning,
+total line: 6
+comment line: 0

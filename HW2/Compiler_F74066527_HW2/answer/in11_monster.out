@@ -1,0 +1,111 @@
+> Insert {i} into symbol table (scope level: 0)
+IDENT (name=i, address=0)
+INT_LIT 0
+ASSIGN
+IDENT (name=i, address=0)
+INT_LIT 10
+LSS
+IDENT (name=i, address=0)
+INC
+IDENT (name=i, address=0)
+PRINTLN int32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+INT_LIT 3
+> Insert {x} into symbol table (scope level: 1)
+IDENT (name=x, address=1)
+INT_LIT 0
+INT_LIT 1
+INT_LIT 2
+ADD
+ASSIGN
+IDENT (name=x, address=1)
+INT_LIT 1
+IDENT (name=x, address=1)
+INT_LIT 0
+INT_LIT 1
+SUB
+ASSIGN
+IDENT (name=x, address=1)
+INT_LIT 2
+IDENT (name=x, address=1)
+INT_LIT 1
+INT_LIT 3
+QUO
+ASSIGN
+IDENT (name=x, address=1)
+INT_LIT 2
+PRINTLN int32
+INT_LIT 3
+INT_LIT 4
+INT_LIT 5
+POS
+INT_LIT 8
+NEG
+ADD
+MUL
+SUB
+INT_LIT 10
+INT_LIT 7
+QUO
+SUB
+INT_LIT 4
+NEG
+INT_LIT 3
+REM
+GTR
+TRUE
+NOT
+FALSE
+NOT
+NOT
+LAND
+LOR
+PRINTLN bool
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         x         array     1         7         int32
+INT_LIT 0
+> Insert {x} into symbol table (scope level: 0)
+IDENT (name=x, address=2)
+INT_LIT 10
+ADD_ASSIGN
+IDENT (name=x, address=2)
+INT_LIT 0
+GTR
+IDENT (name=x, address=2)
+PRINTLN int32
+IDENT (name=x, address=2)
+DEC
+IDENT (name=x, address=2)
+INT_LIT 0
+NEQ
+FLOAT_LIT 3.140000
+> Insert {y} into symbol table (scope level: 2)
+STRING_LIT If x != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=y, address=3)
+PRINTLN float32
+> Dump symbol table (scope level: 2)
+Index     Name      Type      Address   Lineno    Element type
+0         y         float32   3         21        -
+FLOAT_LIT 6.600000
+> Insert {z} into symbol table (scope level: 2)
+STRING_LIT If x == 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=z, address=4)
+PRINTLN float32
+> Dump symbol table (scope level: 2)
+Index     Name      Type      Address   Lineno    Element type
+0         z         float32   4         29        -
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         i         int32     0         1         -
+1         x         int32     2         15        -
+Total lines: 34

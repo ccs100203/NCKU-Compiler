@@ -1,0 +1,115 @@
+INT_LIT 0
+> Insert {x} into symbol table (scope level: 0)
+IDENT (name=x, address=0)
+INT_LIT 0
+EQL
+STRING_LIT Hello
+PRINTLN string
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+IDENT (name=x, address=0)
+INT_LIT 0
+NEQ
+FLOAT_LIT 3.140000
+> Insert {y} into symbol table (scope level: 1)
+STRING_LIT If x != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=y, address=1)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         y         float32   1         10        -
+FLOAT_LIT 6.600000
+> Insert {z} into symbol table (scope level: 1)
+STRING_LIT If x == 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=z, address=2)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         z         float32   2         15        -
+INT_LIT 1
+> Insert {y} into symbol table (scope level: 0)
+IDENT (name=x, address=0)
+INT_LIT 0
+NEQ
+FLOAT_LIT 3.140000
+> Insert {y} into symbol table (scope level: 1)
+STRING_LIT If x != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=y, address=4)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         y         float32   4         23        -
+IDENT (name=y, address=3)
+INT_LIT 0
+NEQ
+FLOAT_LIT 6.600000
+> Insert {z} into symbol table (scope level: 1)
+STRING_LIT If y != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=z, address=5)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         z         float32   5         28        -
+IDENT (name=x, address=0)
+INT_LIT 0
+NEQ
+FLOAT_LIT 3.140000
+> Insert {y} into symbol table (scope level: 1)
+STRING_LIT If x != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=y, address=6)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         y         float32   6         35        -
+IDENT (name=y, address=3)
+INT_LIT 0
+NEQ
+FLOAT_LIT 6.600000
+> Insert {z} into symbol table (scope level: 1)
+STRING_LIT If y != 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=z, address=7)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         z         float32   7         40        -
+IDENT (name=y, address=3)
+INT_LIT 0
+EQL
+FLOAT_LIT 6.660000
+> Insert {zz} into symbol table (scope level: 1)
+STRING_LIT If y == 
+PRINT string
+INT_LIT 0
+PRINTLN int32
+IDENT (name=zz, address=8)
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+0         zz        float32   8         45        -
+STRING_LIT else
+PRINTLN string
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         x         int32     0         1         -
+1         y         int32     3         21        -
+Total lines: 51

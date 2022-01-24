@@ -1,0 +1,27 @@
+var      	 VAR
+x        	 IDENT
+float32  	 FLOAT
+         	 NEWLINE
+var      	 VAR
+y_000    	 IDENT
+int32    	 INT
+=        	 ASSIGN
+5        	 INT_LIT
+         	 NEWLINE
+var      	 VAR
+__z      	 IDENT
+string   	 STRING
+=        	 ASSIGN
+"        	 QUOTA
+OuO      	 STRING
+"        	 QUOTA
+         	 NEWLINE
+var      	 VAR
+weight   	 IDENT
+bool     	 BOOL
+=        	 ASSIGN
+false    	 FALSE
+
+Finish scanning,
+total line: 4
+comment line: 0

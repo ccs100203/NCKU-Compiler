@@ -1,0 +1,21 @@
+if       	 IF
+x        	 IDENT
+>        	 GTR
+qwe      	 IDENT
+{        	 LBRACE
+         	 NEWLINE
+x        	 IDENT
+++       	 INC
+         	 NEWLINE
+}        	 RBRACE
+else     	 ELSE
+{        	 LBRACE
+         	 NEWLINE
+x        	 IDENT
+--       	 DEC
+         	 NEWLINE
+}        	 RBRACE
+
+Finish scanning,
+total line: 5
+comment line: 0

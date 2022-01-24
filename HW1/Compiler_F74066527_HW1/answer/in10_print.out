@@ -1,0 +1,39 @@
+print    	 PRINT
+(        	 LPAREN
+x        	 IDENT
+)        	 RPAREN
+         	 NEWLINE
+print    	 PRINT
+(        	 LPAREN
+100      	 INT_LIT
+)        	 RPAREN
+         	 NEWLINE
+println  	 PRINTLN
+(        	 LPAREN
+3.75     	 FLOAT_LIT
+)        	 RPAREN
+         	 NEWLINE
+println  	 PRINTLN
+(        	 LPAREN
+y        	 IDENT
++        	 ADD
+good     	 IDENT
+*        	 MUL
+z        	 IDENT
+)        	 RPAREN
+         	 NEWLINE
+print    	 PRINT
+(        	 LPAREN
+true     	 TRUE
+)        	 RPAREN
+         	 NEWLINE
+println  	 PRINTLN
+(        	 LPAREN
+"        	 QUOTA
+Hi       	 STRING
+"        	 QUOTA
+)        	 RPAREN
+
+Finish scanning,
+total line: 6
+comment line: 0

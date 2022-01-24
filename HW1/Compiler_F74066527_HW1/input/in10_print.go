@@ -1,0 +1,6 @@
+print(x)
+print(100)
+println(3.75)
+println(y + good * z)
+print(true)
+println("Hi")

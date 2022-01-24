@@ -1,0 +1,33 @@
+for      	 FOR
+x        	 IDENT
+>        	 GTR
+0        	 INT_LIT
+{        	 LBRACE
+         	 NEWLINE
+x        	 IDENT
+--       	 DEC
+         	 NEWLINE
+}        	 RBRACE
+         	 NEWLINE
+         	 NEWLINE
+for      	 FOR
+i        	 IDENT
+=        	 ASSIGN
+0        	 INT_LIT
+;        	 SEMICOLON
+i        	 IDENT
+<        	 LSS
+10       	 INT_LIT
+;        	 SEMICOLON
+i        	 IDENT
+++       	 INC
+{        	 LBRACE
+         	 NEWLINE
+count    	 IDENT
+++       	 INC
+         	 NEWLINE
+}        	 RBRACE
+
+Finish scanning,
+total line: 7
+comment line: 0

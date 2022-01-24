@@ -1,0 +1,45 @@
+INT_LIT 3
+> Insert {x} into symbol table (scope level: 0)
+FLOAT_LIT 3.140000
+> Insert {y} into symbol table (scope level: 0)
+> Insert {z1} into symbol table (scope level: 0)
+> Insert {z2} into symbol table (scope level: 0)
+IDENT (name=z1, address=2)
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+F to I
+ADD
+ASSIGN
+IDENT (name=z2, address=3)
+IDENT (name=x, address=0)
+I to F
+IDENT (name=y, address=1)
+ADD
+ASSIGN
+IDENT (name=z1, address=2)
+PRINTLN int32
+IDENT (name=z2, address=3)
+PRINT float32
+IDENT (name=z1, address=2)
+IDENT (name=x, address=0)
+FLOAT_LIT 6.280000
+F to I
+ADD
+ASSIGN
+IDENT (name=z2, address=3)
+INT_LIT 6
+I to F
+IDENT (name=y, address=1)
+ADD
+ASSIGN
+IDENT (name=z1, address=2)
+PRINTLN int32
+IDENT (name=z2, address=3)
+PRINT float32
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         x         int32     0         1         -
+1         y         float32   1         2         -
+2         z1        int32     2         3         -
+3         z2        float32   3         4         -
+Total lines: 12

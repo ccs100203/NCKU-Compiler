@@ -1,0 +1,27 @@
+x        	 IDENT
+=        	 ASSIGN
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
++=       	 ADD_ASSIGN
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+-=       	 SUB_ASSIGN
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+*=       	 MUL_ASSIGN
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+/=       	 QUO_ASSIGN
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+%=       	 REM_ASSIGN
+y        	 IDENT
+
+Finish scanning,
+total line: 6
+comment line: 0

@@ -1,0 +1,70 @@
+> Insert {x} into symbol table (scope level: 0)
+> Insert {y} into symbol table (scope level: 0)
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+error:3: invalid operation: ADD (mismatched types int32 and float32)
+ADD
+IDENT (name=y, address=1)
+IDENT (name=x, address=0)
+error:4: invalid operation: SUB (mismatched types float32 and int32)
+SUB
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+error:5: invalid operation: ASSIGN (mismatched types int32 and float32)
+ASSIGN
+INT_LIT 3
+FLOAT_LIT 3.140000
+error:6: invalid operation: ADD (mismatched types int32 and float32)
+ADD
+FLOAT_LIT 3.000000
+FLOAT_LIT 3.140000
+ADD
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+error:8: invalid operation: (operator REM not defined on float32)
+REM
+IDENT (name=y, address=1)
+INT_LIT 3
+error:9: invalid operation: (operator REM not defined on float32)
+REM
+INT_LIT 3
+TRUE
+error:11: invalid operation: (operator LAND not defined on int32)
+LAND
+FALSE
+INT_LIT 2
+INT_LIT 2
+ADD
+error:12: invalid operation: (operator LOR not defined on int32)
+LOR
+FLOAT_LIT 1.000000
+error:14: non-bool (type float32) used as for condition
+FLOAT_LIT 1.000000
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+IDENT (name=x, address=0)
+INT_LIT 1
+ADD
+error:18: non-bool (type int32) used as for condition
+IDENT (name=x, address=0)
+PRINTLN int32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+FLOAT_LIT 2.000000
+error:22: non-bool (type float32) used as for condition
+FLOAT_LIT 2.000000
+PRINTLN float32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+IDENT (name=x, address=0)
+error:26: non-bool (type int32) used as for condition
+IDENT (name=x, address=0)
+PRINTLN int32
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         x         int32     0         1         -
+1         y         float32   1         2         -
+Total lines: 28

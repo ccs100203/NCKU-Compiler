@@ -1,0 +1,29 @@
+x        	 IDENT
++        	 ADD
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+-        	 SUB
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+*        	 MUL
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+/        	 QUO
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+%        	 REM
+y        	 IDENT
+         	 NEWLINE
+x        	 IDENT
+++       	 INC
+         	 NEWLINE
+x        	 IDENT
+--       	 DEC
+
+Finish scanning,
+total line: 7
+comment line: 0

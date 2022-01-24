@@ -1,0 +1,14 @@
+if       	 IF
+x        	 IDENT
+>        	 GTR
+abcd     	 IDENT
+{        	 LBRACE
+         	 NEWLINE
+x        	 IDENT
+++       	 INC
+         	 NEWLINE
+}        	 RBRACE
+
+Finish scanning,
+total line: 3
+comment line: 0
